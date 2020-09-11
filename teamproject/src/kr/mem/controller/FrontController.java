@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("*.do")
 public class FrontController extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // È«±æµ¿ÀÌ°¡ ¼öÁ¤ÇÑ ÄÚµå
+        // í™ê¸¸ë™ì´ê°€ ìˆ˜ì •í•¨
 		String reqUrl=request.getRequestURI();
 		System.out.println(reqUrl);
 	}
