@@ -9,7 +9,8 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("*.do")
 public class FrontController extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-		System.out.println("OK");
+        // 홍길동이가 수정함
+		String reqUrl=request.getRequestURI();
+		System.out.println(reqUrl);
 	}
 }
